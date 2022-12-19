@@ -11,6 +11,7 @@ let package = Package(
     products: [
         .library(
             name: "SKPhotoBrowser",
+            type: .dynamic,
             targets: ["SKPhotoBrowser"]
         ),
     ],
