@@ -16,7 +16,7 @@ enum SKImage {
     private(set) static var forward = image("btn_common_forward_wh")
     
     private static func image(_ name: String) -> UIImage {
-        UIImage(named: name, in: .module, compatibleWith: nil) ?? UIImage()
+        SKBundle.podBundleImage(named: name) ?? UIImage()        
     }
     
 }

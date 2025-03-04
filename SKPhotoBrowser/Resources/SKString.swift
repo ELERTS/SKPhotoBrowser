@@ -17,7 +17,7 @@ enum SKString {
     private(set) static var photoBrowserCancelTitle = localizedString("SK_photo_browser_cancel_title")
     
     private static func localizedString(_ key: String, comment: String = "") -> String {
-        NSLocalizedString(key, bundle: .module, comment: comment)
+        NSLocalizedString(key, bundle: SKBundle.bundle(), comment: comment)
     }
     
 }
