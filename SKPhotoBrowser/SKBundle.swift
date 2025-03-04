@@ -15,7 +15,7 @@ open class SKBundle {
         if( !isPod){
             return UIImage(named: named, in: .module, compatibleWith: nil)
         } else {
-            let podBundle = Bundle(for: TLBundle.self)
+            let podBundle = Bundle(for: SKBundle.self)
             if let url = podBundle.url(forResource: "SKPhotoBrowser", withExtension: "bundle") {
                 let bundle = Bundle(url: url)
                 return UIImage(named: named, in: bundle, compatibleWith: nil)
