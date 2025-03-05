@@ -9,7 +9,7 @@ Pod::Spec.new do |s|
   s.platform            = :ios, "13.0"
   s.source_files        = "SKPhotoBrowser/**/*.{h,m,swift}"
   s.resources           = "SKPhotoBrowser/SKPhotoBrowser.bundle"
-  spec.exclude_files    = ["SKPhotoBrowser/SKBundle+spm.swift"]
+  s.exclude_files    = ["SKPhotoBrowser/SKBundle+spm.swift"]
   s.requires_arc        = true
   s.frameworks          = "UIKit"
   s.pod_target_xcconfig = { 'SWIFT_VERSION' => '5.0' }
