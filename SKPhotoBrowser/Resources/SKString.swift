@@ -20,4 +20,10 @@ enum SKString {
         NSLocalizedString(key, bundle: SKBundle.bundle(), comment: comment)
     }
     
+    
+//    private(set) static var actionViewCancelTitle = "Cancel" //localizedString("SK_action_view_cancel_title")
+//    private(set) static var closeButtonAccessibilityHint = "Tap to close the full-screen viewer" //localizedString("SK_close_button_accessibility_hint")
+//    private(set) static var closeButtonAccessibilityLabel = "Close" //localizedString("SK_close_button_accessibility_label")
+//    private(set) static var fullScreenImageAccessibilityHint = "Swipe down to close the full-screen viewer" //localizedString("SK_full_screen_image_accessibility_hint")
+//    private(set) static var photoBrowserCancelTitle = "Cancel" //localizedString("SK_photo_browser_cancel_title")
 }

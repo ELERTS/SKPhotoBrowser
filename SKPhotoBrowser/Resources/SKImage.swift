@@ -19,4 +19,9 @@ enum SKImage {
         SKBundle.podBundleImage(named: name) ?? UIImage()        
     }
     
+//    private(set) static var back = UIImage(systemName:"chevron.left")
+//    private(set) static var close = UIImage(systemName:"xmark.circle")
+//    private(set) static var delete = UIImage(systemName:"trash")
+//    private(set) static var forward = UIImage(systemName:"chevron.right")
+    
 }

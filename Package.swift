@@ -19,7 +19,11 @@ let package = Package(
         .target(
             name: "SKPhotoBrowser",
             dependencies: [],
-            path: "SKPhotoBrowser"
+            path: "SKPhotoBrowser",
+            exclude: [
+                    "SKBundle.swift",
+                    "SKPhotoBrowser.bundle"
+                ]
         ),
         .testTarget(
             name: "SKPhotoBrowserTests",
